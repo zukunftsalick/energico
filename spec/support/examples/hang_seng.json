@@ -1,0 +1,14 @@
+{"currencies"=>
+  [{"currency"=>"USD", "buy"=>"7.7370", "sell"=>"7.7660"},
+   {"currency"=>"CNY", "buy"=>"1.1793", "sell"=>"1.1926"},
+   {"currency"=>"CNH", "buy"=>"1.1793", "sell"=>"1.1926"},
+   {"currency"=>"AUD", "buy"=>"5.5920", "sell"=>"5.6370"},
+   {"currency"=>"CAD", "buy"=>"5.5500", "sell"=>"5.5890"},
+   {"currency"=>"CHF", "buy"=>"7.8210", "sell"=>"7.8600"},
+   {"currency"=>"EUR", "buy"=>"8.4500", "sell"=>"8.5050"},
+   {"currency"=>"GBP", "buy"=>"11.4680", "sell"=>"11.5460"},
+   {"currency"=>"JPY", "buy"=>"63.8800", "sell"=>"64.2300"},
+   {"currency"=>"NZD", "buy"=>"5.2650", "sell"=>"5.3080"},
+   {"currency"=>"SGD", "buy"=>"5.4970", "sell"=>"5.5340"},
+   {"currency"=>"THB", "buy"=>"0.2087", "sell"=>"0.2217"},
+   {"currency"=>"ZAR", "buy"=>"0.4960", "sell"=>"0.5260"}]}

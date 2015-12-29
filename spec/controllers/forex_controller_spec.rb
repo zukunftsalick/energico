@@ -3,14 +3,15 @@ require 'rails_helper'
 RSpec.describe ForexController, :type => :controller do
 
 	describe 'GET hang_seng' do
-		let(:currencies) { [code: 'XYZ', buy: '12.3', sell: '12.6']}
+		before { 
+			allow_any_instance_of(HangSengJob).to receive(:perform)
+		}
 
-		it 'creates currencies' do
-			expect(Crawlers::HangSeng).to receive(:crawl).and_return(currencies)
-			expect {
-				get :hang_seng
-			}.to change {Currency.count}.by(1)
-		end
+		subject { get :hang_seng }
+		
+		it 'works' do	
+			expect(subject).to be_success
+		end	
 	end
 
 end

@@ -9,6 +9,7 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma'
 gem 'wombat'
+gem 'sucker_punch'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
